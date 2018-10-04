@@ -44,7 +44,7 @@
     <tbody>
       <tr>
         <td>Kamal</td>
-        <td>21</td>
+        <td>22</td>
         <td>ky@gmail.com</td>
       </tr>
     </tbody>
@@ -52,8 +52,27 @@
   <br>
   <hr>
   <form action="process.php" method="POST">
-    <label>First Name</label>
-    <input type="text" name="firstName">
+    <div>
+      <label>First Name</label>
+      <input type="text" name="firstName">
+    </div>
+    <br>
+    <div>
+      <label>Last Name</label>
+      <input type="text" name="lastName">
+    </div>
+    <div>
+      <label>Message</label>
+      <textarea name="message"></textarea>
+    </div>
+    <div>
+      <label>Gender</label>
+      <select name="gender">
+        <option value="male">Male</option>
+        <option name="female">Female</option>
+        <option name="other">Other</option>
+      </select>
+    </div>
   </form>
 </body>
 
